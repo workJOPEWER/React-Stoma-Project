@@ -1,0 +1,36 @@
+.descBlock {
+  padding: 10px;
+  position: relative !important;
+  float: left; }
+
+.descBlock svg {
+  fill: #b9b9b9; }
+
+.svgWrap {
+  width: 50px;
+  float: left; }
+
+.descBlock a, .lastWrapper a {
+  text-decoration: none; }
+
+.forumTitle {
+  margin-left: 10px;
+  color: #0071BC;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+.description, .statistiCol, .lastWrapper {
+  font-size: 14px; }
+
+.description p {
+  padding-left: 60px; }
+
+@media only screen and (max-width: 480px) {
+  .forumTitle {
+    font-size: 14px; }
+
+  .two, .three {
+    display: none; } }
+
+/*# sourceMappingURL=Post.module.css.map */

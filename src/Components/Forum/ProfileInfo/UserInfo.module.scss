@@ -1,0 +1,68 @@
+.descBlock{
+  padding: 10px;
+  position: relative !important;
+  float: left;
+}
+
+.circle{
+  background-color: greenyellow;
+  border-radius: 50% !important;
+  position: absolute;
+  z-index: 2;
+  width: 15px;
+  height: 15px;
+  left: 10%;
+  top: 20px;
+}
+
+.descBlock a, .lastWrapper a {
+  text-decoration: none;
+}
+
+.descBlock{
+  margin-left: 10px;
+  float: left;
+  display: inline-block;
+}
+.imgWrap{
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.imgWrap img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50% !important;
+  border:  1px solid whitesmoke;
+}
+
+/*AVA*/
+.descrAva{}
+
+.nameAva{
+  display: block;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #0b476f;
+}
+
+@media only screen and (max-width: 320px){
+  .descBlock{
+    width: 100%;
+  }
+  .imgWrap{
+    width: 50px;
+    height: 50px;
+  }
+  .nameAva{
+    font-size: 14px;
+    margin-left: 0;
+  }
+  .circle{
+    width: 10px;
+    height: 10px;
+  }
+}

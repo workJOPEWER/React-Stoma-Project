@@ -1,0 +1,29 @@
+.social_list {
+  display: inline-flex; }
+
+.social-list li {
+  display: flex; }
+
+/*
+.col .social-list{
+  display: inline-flex;
+  padding-top: 30px;
+}*/
+.social-list a svg {
+  display: inline-block; }
+
+.col ul li {
+  list-style: none;
+  margin-right: 10px;
+  margin-top: 15px; }
+
+.social-list a {
+  text-decoration: none; }
+
+svg:hover {
+  fill: #0071BC;
+  transition: 0.3s; }
+
+/**/
+
+/*# sourceMappingURL=Category.module.cssule.css.map */

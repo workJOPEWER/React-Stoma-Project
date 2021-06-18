@@ -1,0 +1,79 @@
+.forumWrap {
+  margin-top: 50px;
+  padding: 162px 0 100px; }
+
+/* HEAD BLOCK*/
+.headBlock {
+  position: relative;
+  margin-bottom: 70px; }
+
+.headBlock button {
+  display: none; }
+
+.menuWrap {
+  position: relative;
+  background-color: #28B0B7;
+  box-shadow: 0 10px 33px 0 lightgrey;
+  margin-bottom: 50px;
+  padding: 15px;
+  border-radius: 0.23rem;
+  margin-top: -110px;
+  z-index: 10; }
+
+.menuWrap a {
+  color: #f6f6f6;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #28B0B7;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-decoration: none; }
+
+.salut {
+  color: #f6f6f6;
+  padding-left: 30px; }
+
+.log {
+  text-align: right; }
+
+.table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  background-color: whitesmoke; }
+
+/* TABLE TD*/
+.forumTitle {
+  margin-left: 10px;
+  color: #0071BC;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+.description, .statistiCol, .lastWrapper, .forumTime {
+  font-size: 14px; }
+
+/**/
+/* FORM*/
+/**/
+.messageWrap {
+  width: calc(100% - 170px);
+  margin-right: 25px;
+  margin-top: 25px;
+  float: right; }
+
+.send {
+  float: right;
+  margin-left: 30px;
+  padding-top: 20px;
+  margin-right: 25px;
+  margin-bottom: 10px; }
+
+@media only screen and (max-width: 480px) {
+  .messageWrap {
+    width: 90%;
+    margin-right: 13px; }
+
+  .send {
+    padding-top: 20px; } }
+
+/*# sourceMappingURL=Dialogs.module.css.map */

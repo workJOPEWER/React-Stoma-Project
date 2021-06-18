@@ -1,0 +1,35 @@
+.social_list{
+  display: inline-flex;
+}
+
+.social-list li{
+  display: flex;
+}
+
+.social-list a svg{
+  display: inline-block;
+}
+
+.col ul li {
+  list-style: none;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.social-list a{
+  text-decoration: none;
+}
+
+ svg:hover{
+  fill: #0071BC;
+  transition: 0.3s;
+}
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+ /**/
+
+

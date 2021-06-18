@@ -1,0 +1,27 @@
+.wrapper {
+  margin-top: 120px; }
+
+.link {
+  text-align: left; }
+
+.newsItemWrap {
+  padding-left: 20px;
+  padding-top: 90px; }
+
+.newsItemWrap .row {
+  margin-bottom: 20px; }
+
+/*PAGINATION*/
+.pagination {
+  margin-top: 40px;
+  cursor: pointer; }
+
+.selectedPage {
+  font-weight: 700; }
+
+@media only screen and (max-width: 480px) {
+  .newsItemWrap {
+    padding-left: 0px;
+    padding-top: 20px; } }
+
+/*# sourceMappingURL=ContactsPage.module.css.map */

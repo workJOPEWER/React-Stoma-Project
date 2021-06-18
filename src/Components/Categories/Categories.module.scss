@@ -1,0 +1,65 @@
+.fullCategories{
+  margin-top: 100px;
+}
+
+.rightBlock {
+  margin-top: 50px;
+}
+
+.titleRight{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.titleRight::before {
+  content: '';
+  position: absolute;
+  top: 65px;
+  left: 35%;
+  right: 35%;
+  width: 96px;
+  height: 245px;
+  z-index: -1;
+  background: url("../../assets/crosses.svg");
+}
+
+.subtitle {
+  font-family: inherit;
+  font-weight: 600;
+  color: #5e5e5e;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.blockList {
+  margin-top: 20px;
+}
+
+.titleTegs {
+  margin-top: 50px;
+}
+
+.buttonsGroup {
+  padding-top: 25px;
+}
+
+.chooseCategory{
+  display: none;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #b9b9b9;
+}
+
+.chooseCategory .hoverClass{
+  color: #0071BC;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.chooseCategory .closeBtn{
+  color: #0071BC;
+  font-weight: 600;
+  font-size: 25px;
+
+}
+

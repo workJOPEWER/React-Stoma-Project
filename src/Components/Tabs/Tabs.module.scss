@@ -1,0 +1,18 @@
+.tabs{
+  margin-bottom: 110px;
+}
+
+.headingTitle{
+  font-family: Oswald, sans-serif;
+  font-size: 50px;
+  color: #0071BC;
+  text-transform: uppercase;
+  position: relative;
+  font-weight:400;
+}
+
+@media only screen and (max-width: 480px) {
+  .tabs{
+    margin-bottom: 70px;
+  }
+}

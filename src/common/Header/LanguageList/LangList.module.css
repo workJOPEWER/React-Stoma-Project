@@ -1,0 +1,26 @@
+.lang_list {
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 30px; }
+
+.lang, .lang:hover {
+  color: #28B0B7; }
+
+.lang {
+  font-size: 40px;
+  font-family: "Source Sans Pro",sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.lang:hover {
+  color: whitesmoke;
+  text-decoration: none;
+  border-radius: 5px; }
+
+.lang:active {
+  color: whitesmoke; }
+
+.lang_ru {
+  margin-right: 25px; }
+
+/*# sourceMappingURL=LangList.module.cssule.css.map */

@@ -1,0 +1,36 @@
+/**/
+.black-background {
+  background-color: #000000; }
+
+/*Button BtnDetail*/
+.btn_detail, .btnSubmit {
+  position: relative;
+  padding: 20px 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #28B0B7;
+  color: #f6f6f6;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  box-shadow: 0 10px 33px 0 lightgrey;
+  border: none;
+  z-index: 100; }
+
+.btn_detail:hover, .btnSubmit:hover {
+  position: relative;
+  color: whitesmoke;
+  background-color: #0071BC;
+  border: none;
+  text-decoration: none; }
+
+.btnSubmit:active {
+  border-color: transparent;
+  background-color: red; }
+
+/* Button BtnSubmit*/
+.btnSubmit {
+  border: none;
+  width: 15.5em;
+  height: 4.5em; }
+
+/*# sourceMappingURL=Buttons.css.map */

@@ -1,0 +1,46 @@
+.heading {
+  margin-bottom: 80px;
+  text-align: left;
+  position: relative; }
+
+.headingSubtitle {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  color: #0b476f;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-bottom: 0; }
+
+.headingTitle {
+  font-family: Oswald, sans-serif;
+  font-size: 50px;
+  color: #0071BC;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: 400; }
+
+.heading::before {
+  content: '';
+  position: absolute;
+  top: -125px;
+  left: -53px;
+  width: 96px;
+  height: 245px;
+  z-index: -1;
+  background: url("../../../assets/crosses.svg"); }
+
+.dubbleTitle {
+  display: flex; }
+
+@media only screen and (max-width: 768px) {
+  .heading::before {
+    background: none; }
+
+  .headingSubtitle {
+    font-size: 25px; }
+
+  .headingTitle {
+    font-size: 45px; } }
+
+/*# sourceMappingURL=Headings.module.css.map */

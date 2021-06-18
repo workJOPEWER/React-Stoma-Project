@@ -1,0 +1,35 @@
+.rightBlock {
+  margin-top: 150px; }
+
+.titleRight {
+  text-align: center;
+  margin-top: 50px; }
+
+.titleRight::before {
+  content: '';
+  position: absolute;
+  top: 65px;
+  left: 35%;
+  right: 35%;
+  width: 96px;
+  height: 245px;
+  z-index: -1;
+  background: url("../../../assets/crosses.svg"); }
+
+.subtitle {
+  font-family: inherit;
+  font-weight: 600;
+  color: #5e5e5e;
+  text-transform: uppercase;
+  letter-spacing: 0.5px; }
+
+.blockList {
+  margin-top: 20px; }
+
+.titleTegs {
+  margin-top: 50px; }
+
+.buttonsGroup {
+  padding-top: 25px; }
+
+/*# sourceMappingURL=UsefulLinks.module.css.map */

@@ -1,0 +1,69 @@
+.scrollContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px; }
+
+.scroll-container .indicator {
+  height: 100%;
+  background: #8b0000; }
+
+.scrollToStart {
+  position: fixed;
+  bottom: 12px;
+  right: 40px;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background: #f6f6f6;
+  color: #fff;
+  z-index: 3;
+  text-align: center;
+  cursor: pointer; }
+
+.scrollToStart .icon {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  animation: scrollTop 0.5s alternate ease infinite; }
+
+.arrow8 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  right: 7px;
+  top: 15px; }
+
+.arrow8:before,
+.arrow8:after {
+  content: '';
+  position: absolute;
+  box-sizing: border-box;
+  width: 40%;
+  height: 40%;
+  border-left: 3px solid #0b476f;
+  border-bottom: 3px solid #0b476f;
+  animation: arrow8 3s linear infinite; }
+
+.arrow8:after {
+  animation: arrow8 3s linear infinite -1.5s; }
+
+@keyframes arrow8 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 10px) rotate(135deg); }
+  10%, 90% {
+    opacity: 0; }
+  50% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(135deg); }
+  100% {
+    opacity: 0;
+    transform: translate(0, -10px) rotate(135deg); } }
+@keyframes scrollTop {
+  from {
+    transform: translateY(2px); }
+  to {
+    transform: translateY(-1px); } }
+
+/*# sourceMappingURL=ScrollIndicator.module.css.map */

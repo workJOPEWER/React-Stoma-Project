@@ -1,0 +1,67 @@
+.footer_wrap {
+  position: relative;
+  margin-top: 70px; }
+
+.footer_wrap.container_wide {
+  position: relative; }
+
+.footer_wrap .container {
+  padding: 40px 0 50px 40px;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.main_footer_info {
+  padding-bottom: 50px;
+  background-color: #f6f6f6; }
+
+.footerTitle, .firstBlock {
+  margin-top: 30px; }
+
+.firstBlock p {
+  padding-left: 20px;
+  padding-right: 35px;
+  font-size: 12px;
+  color: #0b476f;
+  text-align: justify; }
+
+.footer_wrap .firstBlock img {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  top: 0; }
+
+.footerTitle, .footerTitle a {
+  color: #5e5e5e; }
+
+.footerTitle {
+  padding-left: 12px; }
+
+.footerTitle a {
+  text-decoration: none; }
+
+.rightsHold {
+  text-align: center;
+  font-size: 10px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  right: 0; }
+
+.rightsText {
+  margin-top: 15px;
+  color: #5e5e5e;
+  font-size: 12px; }
+
+@media screen and (max-width: 991px) {
+  .footer_wrap .container {
+    padding: 0 0 50px 0; } }
+@media screen and (max-width: 480px) {
+  .footerTitle {
+    margin-top: 15px; }
+
+  .footer_social {
+    padding: 0;
+    display: flex; } }
+
+/*# sourceMappingURL=Footer.css.map */

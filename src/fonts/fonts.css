@@ -1,0 +1,65 @@
+/*Oswald*/
+@font-face {
+  font-family: 'Oswald';
+  src: local("Oswald Bold"), local("Oswald-Bold"), url("Oswald/Oswaldbold.woff2") format("woff2"), url("Oswald/Oswaldbold.woff") format("woff"), url("Oswald/Oswaldbold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'Oswald';
+  src: local("Oswald Light"), local("Oswald-Light"), url("Oswald/Oswaldlight.woff2") format("woff2"), url("Oswald/Oswaldlight.woff") format("woff"), url("Oswald/Oswaldlight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Oswald';
+  src: local("Oswald Regular"), local("Oswald-Regular"), url("Oswald/Oswaldregular.woff2") format("woff2"), url("Oswald/Oswaldregular.woff") format("woff"), url("Oswald/Oswaldregular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'Oswald';
+  src: local("Oswald DemiBold"), local("Oswald-DemiBold"), url("Oswald/Oswalddemibold.woff2") format("woff2"), url("Oswald/Oswalddemibold.woff") format("woff"), url("Oswald/Oswalddemibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+/*Roboto*/
+@font-face {
+  font-family: 'Roboto';
+  src: local("Roboto Light"), local("Roboto-Light"), url("Roboto/Robotolight.woff2") format("woff2"), url("Roboto/Robotolight.woff") format("woff"), url("Roboto/Robotolight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto';
+  src: local("Roboto"), local("Roboto-Regular"), url("Roboto/Roboto.woff2") format("woff2"), url("Roboto/Roboto.woff") format("woff"), url("Roboto/Roboto.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto';
+  src: local("Roboto Bold"), local("Roboto-Bold"), url("Roboto/Robotobold.woff2") format("woff2"), url("Roboto/Robotobold.woff") format("woff"), url("Roboto/Robotobold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto';
+  src: local("Roboto Black"), local("Roboto-Black"), url("Roboto/Robotoblack.woff2") format("woff2"), url("Roboto/Robotoblack.woff") format("woff"), url("Roboto/Robotoblack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+/*Source Sans Pro*/
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: local("Source Sans Pro Semibold"), local("SourceSansPro-Semibold"), url("Sourcesanspro/sourcesansprosemibold.woff2") format("woff2"), url("Sourcesanspro/sourcesansprosemibold.woff") format("woff"), url("Sourcesanspro/sourcesansprosemibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url("Sourcesanspro/sourcesansprobold.woff2") format("woff2"), url("Sourcesanspro/sourcesansprobold.woff") format("woff"), url("Sourcesanspro/sourcesansprobold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: local("Source Sans Pro"), local("SourceSansPro-Regular"), url("Sourcesanspro/sourcesanspro.woff2") format("woff2"), url("Sourcesanspro/sourcesanspro.woff") format("woff"), url("Sourcesanspro/sourcesanspro.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: local("Source Sans Pro Black"), local("SourceSansPro-Black"), url("Sourcesanspro/sourcesansproblack.woff2") format("woff2"), url("Sourcesanspro/sourcesansproblack.woff") format("woff"), url("Sourcesanspro/sourcesansproblack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+/*# sourceMappingURL=fonts.css.map */

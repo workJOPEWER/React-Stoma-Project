@@ -1,0 +1,34 @@
+.logo {
+  display: inline-block;
+  position: relative;
+  cursor: pointer; }
+
+.logoLink:hover {
+  text-decoration: none;
+  color: #28B0B7; }
+
+.header > a:hover {
+  background-color: transparent;
+  text-decoration: none; }
+
+.logoLink {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: #28B0B7;
+  font-family: Oswald, sans-serif;
+  font-weight: 400; }
+
+.logoImg {
+  transform: rotate(-10deg);
+  margin-right: -15px;
+  margin-top: -15px;
+  height: 70px;
+  width: 75px;
+  padding: 10px; }
+
+.logo span {
+  color: #b9b9b9;
+  margin-left: 15px; }
+
+/*# sourceMappingURL=Logo.module.css.map */

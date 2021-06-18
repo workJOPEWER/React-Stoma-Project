@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAO;EACL,UAAU,EAAE,KAAK;EACjB,WAAW,EAAE,GAAG;EAChB,YAAY,EAAE,GAAG;;AAEnB,QAAQ;EACN,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,kBAAkB;EAC/B,KAAK,EAAE,OAAO;;AAGhB,UAAU;EACR,SAAS,EAAE,IAAI",
+"sources": ["Mistake.module.scss"],
+"names": [],
+"file": "Mistake.module.css"
+}

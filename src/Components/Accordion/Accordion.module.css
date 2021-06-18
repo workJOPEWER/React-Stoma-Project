@@ -1,0 +1,23 @@
+.card {
+  padding: 0;
+  margin-bottom: 15px; }
+
+.cardHeader {
+  text-transform: uppercase;
+  background-color: #f6f6f6;
+  color: #5e5e5e;
+  width: 100%; }
+
+.list li {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 13px; }
+
+.list li a {
+  color: #4e555b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: Roboto, sans-serif; }
+
+/*# sourceMappingURL=Accordion.module.css.map */

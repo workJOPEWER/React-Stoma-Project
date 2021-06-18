@@ -1,0 +1,34 @@
+/*REQUISITES*/
+.wrap {
+  margin-top: 90px;
+  margin-bottom: 70px; }
+
+.heading h2 {
+  font-family: Oswald, sans-serif;
+  font-size: 45px;
+  color: #d5d5d5;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 40px; }
+
+.requisBlock, .moreInfoHelp {
+  text-align: center;
+  font-weight: 600;
+  padding: 70px;
+  background-color: whitesmoke;
+  box-shadow: 3px 0 15px 3px lightgrey; }
+
+.requisites span {
+  color: #0b476f; }
+
+.requisites h5 {
+  color: #0071BC; }
+
+.requisites h6 {
+  color: #b9b9b9;
+  font-weight: 700; }
+
+/*MORE*/
+
+/*# sourceMappingURL=requisites.module.css.map */

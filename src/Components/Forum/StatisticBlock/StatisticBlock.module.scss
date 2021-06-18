@@ -1,0 +1,29 @@
+
+.table{
+  border-spacing: 0;
+  border-collapse: collapse;
+  background-color: whitesmoke;
+}
+
+.thead{
+  background-color: #28B0B7;
+  font-size: 14px;
+  color: #f6f6f6;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.thead th{
+  font-weight: 600;
+  padding: 8px;
+  line-height: 1.4;
+}
+
+.addBlock{
+  margin-top: 20px;
+}
+
+.addBlock ul{
+  list-style: none;
+  margin-left: 10px;
+}

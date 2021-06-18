@@ -1,0 +1,112 @@
+.forumWrap {
+  margin-top: 50px;
+  padding: 162px 0 100px;
+}
+
+/**/
+.table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  background-color: whitesmoke;
+}
+
+.thead {
+  background-color: #28B0B7;
+  font-size: 14px;
+  color: #f6f6f6;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.thead th {
+  font-weight: 600;
+  padding: 8px;
+  line-height: 1.4;
+}
+
+.forumPost {
+  width: 100%;
+}
+
+.descBlock {
+  padding: 10px;
+  position: relative !important;
+  float: left;
+}
+
+.forumTitle {
+  margin-left: 10px;
+  color: #0071BC;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.description, .statistiCol, .lastWrapper, .forumTime {
+  font-size: 14px;
+}
+
+.bodyBlock {}
+
+.descBlock svg {
+  fill: #b9b9b9;
+}
+
+.svgWrap {
+  width: 50px;
+  float: left;
+}
+
+.descBlock a, .lastWrapper a {
+  text-decoration: none;
+}
+
+.forumTitle {
+  margin-left: 10px;
+  color: #0071BC;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.description, .statistiCol, .lastWrapper {
+  font-size: 14px;
+}
+
+.description p {
+  padding-left: 60px;
+}
+
+.lastWrapper a {
+  text-decoration: none;
+}
+
+.forumTime {
+  font-size: 12px;
+}
+
+/*MODAL FORM*/
+.container {
+  background-color: #f6f6f6;
+}
+
+.modalNewTopic {
+  margin-top: 90px;
+  padding-top: 50px;
+}
+
+.modalNewTopic .back {
+  background-color: #f6f6f6;
+  padding: 30px;
+}
+
+
+@media only screen and (max-width: 480px){
+  .forumTitle{
+    font-size: 14px;
+  }
+
+  .two, .three{
+    display: none;
+  }
+}

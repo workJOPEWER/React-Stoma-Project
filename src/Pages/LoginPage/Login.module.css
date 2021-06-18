@@ -1,0 +1,72 @@
+.formWrap {
+  display: block;
+  margin-top: 120px;
+  box-sizing: border-box; }
+
+.authForm, .registrationLink {
+  width: 340px;
+  border-radius: 5px; }
+
+.authForm {
+  margin: 0;
+  padding: 20px;
+  box-shadow: 1px 0 15px 3px lightgrey; }
+
+.registrationLink {
+  padding: 15px 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  border: 2px solid #f6f6f6; }
+
+.pd {
+  padding-right: 16px !important;
+  padding-left: 16px !important; }
+
+.authForm label {
+  width: 100%;
+  -ms-text-align-last: left;
+  text-align-last: left;
+  font-weight: 600; }
+
+.labelLink {
+  float: right;
+  font-size: 12px; }
+
+.checkboxBlock {
+  display: flex;
+  padding: 10px; }
+
+/*HEADINGS*/
+.heading {
+  margin-bottom: 80px;
+  text-align: left; }
+
+.subtitle {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  color: #0b476f;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-bottom: 0; }
+
+.title {
+  font-family: Oswald, sans-serif;
+  font-size: 50px;
+  color: #0071BC;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: 400; }
+
+.heading::before {
+  content: '';
+  position: absolute;
+  top: -125px;
+  left: -53px;
+  width: 96px;
+  height: 245px;
+  z-index: -1;
+  background: url("../../assets/crosses.svg"); }
+
+/*# sourceMappingURL=Login.module.css.map */

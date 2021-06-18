@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAW;EACT,UAAU,EAAE,IAAI;;AAGlB,eAAe;EACb,IAAI,EAAE,OAAO;EACb,WAAW,EAAE,IAAI;;AAGnB,qBAAqB;EACnB,IAAI,EAAE,OAAO",
+"sources": ["ForumInfoBtn.module.scss"],
+"names": [],
+"file": "ForumInfoBtn.module.css"
+}

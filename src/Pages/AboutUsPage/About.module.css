@@ -1,0 +1,18 @@
+.t {
+  margin-top: 50px;
+  margin-bottom: 60px; }
+
+.t img {
+  height: 50px; }
+
+.infoWrapper {
+  margin-top: 50px;
+  padding: 120px 0 100px;
+  position: relative; }
+
+@media only screen and (max-width: 480px) {
+  .infoWrapper {
+    padding: 25px 0 40px;
+    margin: 0; } }
+
+/*# sourceMappingURL=About.module.css.map */

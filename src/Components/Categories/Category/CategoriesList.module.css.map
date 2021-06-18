@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,aAAa;EACX,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,MAAM;;AAGpB,gBAAgB;EACd,WAAW,EAAE,OAAO;EACpB,KAAK,EAAE,OAAO;EACd,cAAc,EAAE,SAAS;EACzB,cAAc,EAAE,KAAK;;AAGvB,kBAAkB;EAChB,WAAW,EAAE,OAAO;EACpB,KAAK,EAAE,OAAO;EACd,cAAc,EAAE,SAAS;EACzB,cAAc,EAAE,KAAK;;AAIvB,eAAe;EACb,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,GAAG",
+"sources": ["CategoriesList.module.scss"],
+"names": [],
+"file": "CategoriesList.module.css"
+}

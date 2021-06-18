@@ -1,0 +1,121 @@
+body {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+/*WRAPPERS*/
+.app-wrapper {
+  width: 100%;
+  overflow-x: hidden; }
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  position: relative; }
+
+.page-wrapper {
+  padding-top: 150px;
+  position: relative;
+  display: block;
+  height: 100%; }
+
+.projects_wrap {
+  margin-top: 30px;
+  padding: 142px 0 100px; }
+
+.newsWrapper {
+  margin-top: 50px;
+  padding: 120px 0 100px;
+  position: relative; }
+
+/*CONTAINERS*/
+.container_wide {
+  padding: 0 40px;
+  margin: auto; }
+
+.container {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto; }
+
+.section {
+  margin: 0;
+  padding: 0;
+  display: block; }
+
+/*IMAGES*/
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0; }
+
+/*IMAGES*/
+/*LINKS*/
+/*TABLE*/
+.table {
+  margin-bottom: 0; }
+
+.table-responsive {
+  margin-top: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 0 15px 3px lightgrey; }
+
+.table > tbody > tr > td {
+  border-left: 1px solid #ddd;
+  background-color: whitesmoke;
+  border-spacing: 20px 0; }
+
+.table-bordered {
+  background-color: whitesmoke;
+  color: #0b476f;
+  padding: 15px 15px;
+  box-shadow: 1px 0 15px 3px lightgrey; }
+
+/*Breadcrumb New Tipic Button*/
+.breadcrumb {
+  background-color: transparent; }
+
+/*NAV PILLS CONTACTSPAGE*/
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: #f6f6f6;
+  color: #0071BC;
+  font-weight: 600; }
+
+.nav-link.disabled {
+  color: #b9b9b9; }
+
+.accordion .Accordion_cardHeader__1RjYP a {
+  color: #5e5e5e;
+  pointer-events: none; }
+
+.accordion .Accordion_cardHeader__1RjYP a:hover {
+  color: #5e5e5e;
+  text-decoration: none; }
+
+.accordion .card .card-header {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.125); }
+
+.accordion .card .card-body {
+  background-color: #fff; }
+
+/*NAVTABS BORDER NEWSPAGE and CONTACT*/
+.nav-tabs .nav-link {
+  border: 2px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: 0.25rem; }
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-color: #e9ecef #e9ecef #f6f6f6; }
+
+/*# sourceMappingURL=App.css.map */

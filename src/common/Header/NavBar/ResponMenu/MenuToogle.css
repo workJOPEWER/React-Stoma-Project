@@ -1,0 +1,41 @@
+/**/
+/*Wrapper to menu*/
+.main-menu {
+  width: 100%; }
+
+.mm-holder {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100vh; }
+
+.mm-wrap {
+  height: 100%;
+  text-align: center;
+  overflow-y: auto; }
+
+.mm-inner {
+  display: flex;
+  flex-direction: column;
+  padding: 17vh 0 60px; }
+
+/* TOGGLE */
+#flyoutMenu {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to left, #0071BC 30%, rgba(255, 255, 255, 0) 100%);
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: transform .5s;
+  z-index: 1000; }
+
+#flyoutMenu.hide {
+  transform: translate3d(100vw, 0, 0); }
+
+#flyoutMenu.show {
+  transform: translate3d(0vw, 0, 0);
+  overflow: hidden; }
+
+/*# sourceMappingURL=MenuToogle.css.map */

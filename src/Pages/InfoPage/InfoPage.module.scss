@@ -1,0 +1,51 @@
+
+.infoWrapper {
+  margin-top: 50px;
+  padding: 120px 0 100px;
+  position: relative;
+}
+
+/* NEWS bLOCK*/
+
+.articleBlock{
+  margin-top: 120px;
+
+}
+.articleBlock, .newsBlock{
+  font-size: 12px;
+  text-align: center;
+}
+
+.articleBlock span, .newsBlock span{
+  text-align: left;
+  display: none;
+}
+
+.newsBlock{
+  margin-top: 90px;
+}
+.news{}
+
+.newsItems{
+  text-align: left;
+  margin-right: -15px;
+  margin-left: 15px;
+}
+.newsItems h3{
+  font-size: 16px;
+}
+
+.subtitle{
+  color: #b9b9b9;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  font-family: Oswald, sans-serif;
+ }
+
+
+@media only screen and (max-width: 480px){
+  .infoWrapper{
+    padding: 25px 0 40px;
+    margin: 0;
+  }
+}

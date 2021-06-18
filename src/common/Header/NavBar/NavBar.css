@@ -1,0 +1,14 @@
+/* MENU */
+.cust_btn:hover:before {
+  height: 7%; }
+
+.navbar .donate_holder {
+  margin-left: 20px; }
+
+.navbar .text-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-basis: 100%; }
+
+/*# sourceMappingURL=NavBar.css.map */

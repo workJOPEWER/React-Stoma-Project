@@ -1,0 +1,117 @@
+.mmList{
+  position: relative;
+  margin-bottom: 60px;
+  left: 15%;
+  right: 15%;
+}
+
+.navLink {
+  width: fit-content;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.085em;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.navLink:hover, .navLink a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.navLink:before{
+  height: 100%;
+  width: 0;
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  z-index: -1;
+  background-color: #28B0B7;
+  transition: all .3s ease;
+}
+
+.navLink:hover:before{
+  width: 60%;
+}
+
+.formInline{
+  position: absolute;
+  margin-right: 40px;
+  right:50px;
+  top: 50px;
+}
+
+.main-menu .closeFloatMenu{
+  margin-right: 0;
+  width: auto;
+}
+
+.main-menu .closeFloatMenu{
+  height: 100%;
+  position: absolute;
+  display: block;
+  right: 60px;
+  top: 40px;
+}
+
+.closeBottom{
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  font-size: 40px;
+  cursor: pointer;
+  font-weight: 700;
+  color: whitesmoke;
+}
+/*ToolTip*/
+
+.tooltip {
+  cursor: help;
+}
+
+.tooltip::after {
+  background: whitesmoke;
+  border-radius: 8px 8px 8px 0;
+  color: #0071BC;
+  content: attr(data-tooltip);
+  margin-top: -40px;
+  opacity: 0;
+  padding: 7px;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+}
+
+.tooltip:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+@media only screen and (max-width: 991.98px){
+  .closeFloatMenu .closeBottom{
+    font-size: 40px;
+  }
+  .mmList .navLink {
+    font-size: 35px;
+  }
+
+}
+
+@media screen and (max-width: 768px){}
+
+@media only screen and (max-width: 480px) {
+  .mmList .navLink {
+    font-size: 18px;
+  }
+  .closeFloatMenu .closeBottom{
+    font-size: 27px;
+  }
+
+}

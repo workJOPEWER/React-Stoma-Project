@@ -1,0 +1,47 @@
+
+.textPost{
+  font-size: 14px;
+  width: calc(100% - 130px);
+  float: right;
+}
+.userBlock{
+  display: inline-block;
+}
+
+.textPost p{
+  padding: 25px;
+}
+
+.footer{
+  margin-top: 20px;
+}
+
+.answer{
+  display: inline-block;
+  float: right;
+  margin-right: 40px;
+}
+.answer a{
+  text-decoration: none;
+  color: #28B0B7;
+  font-weight: 600;
+}
+
+.data, .answer, .send{
+  margin-bottom: 15px;
+}
+
+.data, .send{
+  width: 200px;
+  font-size: 14px;
+  display: inline-block;
+  color: #b9b9b9;
+  margin-left: 30px;
+}
+
+
+@media only screen and (max-width: 480px){
+  .textPost{
+    width: 100%;
+  }
+}

@@ -1,0 +1,133 @@
+.formHolder {}
+
+.sendForm {
+  padding-top: 10px;
+  margin-bottom: 25px;
+}
+
+.formHolder .sendForm input {
+  height: 65px;
+  padding: 15px;
+  border: none;
+  box-shadow: 0 10px 20px 0 lightgrey;
+  width: 100%;
+  border-radius: 4px;
+}
+.formHolder .sendForm textarea {
+  padding: 15px;
+}
+
+.formHolder .sendForm input textarea {
+  height: 11em;
+  padding-bottom: 7.5em;
+  border: none;
+  box-shadow: 0 10px 20px 0 lightgrey;
+}
+
+/*CAPTCHA*/
+
+.cartchaForm {
+  max-width: 220px;
+  margin-left: auto;
+  position: relative;
+}
+
+.cartchaForm .chatcha {
+  display: block;
+  background-color: transparent;
+  border: none;
+}
+
+.cartchaForm .chatcha:hover {
+  background-color: transparent;
+}
+
+.cartchaForm .chatcha:focus {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.cartchaSvg {
+  display: block;
+  position: absolute;
+  top: 15px;
+}
+
+.popover-header, .popover-body, .arrow {
+  font-size: 12px;
+}
+
+/*SUCCESS*/
+
+.formContentRight {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background: white;
+  box-shadow: 0 10px 20px 0 lightgrey;
+}
+
+.formSuccess {
+  position: absolute;
+  top: 58%;
+  width: 100%;
+  text-align: center;
+  font-size: 55px;
+  color: #4e555b;
+  font-family: Oswald, sans-serif;
+}
+
+.imgHolder {
+  align-self: start;
+}
+
+.imgHolder::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.formImg {
+  width: 160px;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.field{
+  margin-bottom: 35px;
+}
+
+/*MEDIA*/
+@media only screen and (max-width: 991.98px) {
+  .formHolder {
+    margin-top: 80px;
+    padding-bottom: 90px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .sendForm {
+    margin-left: 0;
+    padding: 25px;
+    margin-bottom: 25px;
+  }
+  .cartchaForm {
+    margin-top: 50px;
+    max-width: 100px;
+    float: left;
+  }
+  .formHolder{
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+}

@@ -1,0 +1,11 @@
+/*PAGINATION*/
+.selectedPage .paginator {
+  margin: 10px; }
+.selectedPage .pageNumber {
+  padding: 2px;
+  border: 1px solid grey; }
+.selectedPage .pageNumber.selectedPage {
+  font-weight: bold;
+  border-color: black; }
+
+/*# sourceMappingURL=Paginator.module.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAS;EACP,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,MAAM;;AAEpB,WAAW;EACT,WAAW,EAAE,kBAAkB;EAC/B,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;EACd,cAAc,EAAE,SAAS;EACzB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAC,GAAG;EACf,aAAa,EAAE,IAAI",
+"sources": ["DonateBlock.module.scss"],
+"names": [],
+"file": "DonateBlock.module.css"
+}

@@ -1,0 +1,106 @@
+.wrapper{
+  margin-top: 120px;
+}
+.link{
+  text-align: left;
+}
+
+.newsItemWrap{
+  padding-left: 20px;
+  padding-top: 90px;
+}
+
+.newsItemWrap .row {
+  margin-bottom: 20px;
+}
+
+/*PAGINATION*/
+
+.pagination{
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.selectedPage{
+  font-weight: 700;
+}
+
+/*CATEGORIES*/
+
+.rightBlock {
+  margin-top: 150px;
+}
+
+.titleRight, .titleTags{
+  text-align: center;
+}
+
+.titleRight{
+  margin-top: 50px;
+}
+
+.titleTags{
+  margin-top: 80px;
+}
+
+.titleRight::before {
+  content: '';
+  position: absolute;
+  top: 85px;
+  left: 40%;
+  right: 40%;
+  width: 96px;
+  height: 245px;
+  z-index: -1;
+  background: url("../../assets/crosses.svg");
+}
+
+.subtitle {
+  font-family: inherit;
+  color: #5e5e5e;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.social {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.titleTegs {
+  margin-top: 50px;
+}
+
+.buttonsGroup {
+  padding-top: 25px;
+}
+
+/**/
+
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.navItem {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.navLink{
+  display: block;
+  padding: .5rem 1rem;
+}
+
+.linkTitle {
+  font-family: Oswald, sans-serif;
+  font-size: 50px;
+  color: #0071BC;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: 400;
+}

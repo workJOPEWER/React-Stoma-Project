@@ -1,0 +1,21 @@
+.categoryItem {
+  padding: 10px;
+  text-align: center; }
+
+.categoryItem h5 {
+  font-family: inherit;
+  color: #5e5e5e;
+  text-transform: uppercase;
+  letter-spacing: 0.5px; }
+
+.categoryItem h5 a {
+  font-family: inherit;
+  color: #5e5e5e;
+  text-transform: uppercase;
+  letter-spacing: 0.5px; }
+
+.selectCategory {
+  color: #0b476f;
+  font-weight: 700; }
+
+/*# sourceMappingURL=CategoriesList.module.css.map */

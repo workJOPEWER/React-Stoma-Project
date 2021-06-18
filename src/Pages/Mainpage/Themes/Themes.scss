@@ -1,0 +1,18 @@
+
+.themes_heading{
+  position: relative;
+  margin-bottom: 86px;
+}
+
+.themes_heading::before{
+  content: '';
+  position: absolute;
+  top: -142px;
+  left: -53px;
+  width: 96px;
+  height: 245px;
+  z-index: -1;
+  background: url("../../../assets/crosses.svg");
+}
+
+

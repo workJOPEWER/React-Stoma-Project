@@ -1,0 +1,82 @@
+.section {
+  padding-bottom: 40px; }
+
+.section .container_wide {
+  display: flex; }
+
+.image_holder {
+  overflow: hidden;
+  border-right: 5px solid #f6f6f6; }
+
+.section .image_holder, .section .text_holder {
+  flex-basis: 49.48%;
+  padding-top: 142px; }
+
+.section .image_holder {
+  position: relative;
+  margin-right: 10px;
+  align-self: start; }
+
+.section .image_holder::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.7); }
+
+.section .image_holder img {
+  display: block;
+  width: 70%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.section .text_holder {
+  padding-left: 60px;
+  margin: 0;
+  padding-right: 0;
+  text-align: justify; }
+
+.text_holder .t_about {
+  position: relative; }
+
+.t_about, .content {
+  padding-bottom: 40px; }
+
+.content {
+  font-family: Roboto sans-serif;
+  font-size: 16px;
+  color: #0b476f; }
+
+.text_holder .btn_detail {
+  padding: 24px 50px;
+  font-size: 12px; }
+
+@media screen and (max-width: 768px) {
+  .section .text_holder {
+    padding-left: 15px; }
+
+  .section .image_holder, .section .text_holder {
+    padding-top: 130px; }
+
+  .text_holder p {
+    font-size: 15px;
+    padding-top: 0; }
+
+  .section .text_holder .Headings_heading__RdEHZ {
+    margin-bottom: 40px; } }
+@media screen and (max-width: 480px) {
+  .section .text_holder {
+    padding-left: 0; }
+
+  .text_holder p {
+    font-size: 15px;
+    padding-top: 0; }
+
+  .section .text_holder .Headings_heading__RdEHZ {
+    margin-bottom: 40px; } }
+
+/*# sourceMappingURL=AboutMainPage.css.map */
